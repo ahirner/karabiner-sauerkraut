@@ -1,8 +1,9 @@
 {
-  "title": "German mapping for programming (/, \\, |, {}, [], ~) (rev 2)",
+  "title": "Sauerkraut: caps-lock to US",
   "rules": [
     {
-      "description": "German mapping for programming (/, \\, |, {}, [], ~) (rev 2)",
+      "description": "Sauerkraut: caps-lock to US = / (to_if_alone) and \\, {}, [] (modifier)",
+
       "manipulators": [
         {
           "from": {
@@ -86,13 +87,14 @@
         },
         {
           "from": {
-            "key_code": "slash",
+            "key_code": "caps_lock",
             "modifiers": {
-              "mandatory": ["left_control"],
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
-          "to": [
+          "to_if_alone": [
             {
               "key_code": "7",
               "modifiers": ["shift"]
