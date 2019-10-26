@@ -1,5 +1,10 @@
 {
   "title": "Sauerkraut: caps-lock to US",
+  "author": "cybertreiber",
+  "homepage": "https://github.com/ahirner/karabiner-sauerkraut",
+  "hostpage": "https://github.com/ahirner/karabiner-sauerkraut",
+  "manual": "https://github.com/ahirner/karabiner-sauerkraut",
+  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/ahirner/karabiner-sauerkraut/master/german_programming.json",
   "rules": [
     {
       "description": "Sauerkraut: Hyper on caps-lock",
@@ -38,7 +43,6 @@
     ,
     {
       "description": "Sauerkraut: Hyper to US /\\, {}, []",
-
       "manipulators": [
         {
           "from": {
