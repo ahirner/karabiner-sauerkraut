@@ -42,7 +42,7 @@
     }
     ,
     {
-      "description": "Sauerkraut: Hyper to US /\\, {}, []",
+      "description": "Sauerkraut: Hyper to US /\\, {}, [], Esc",
       "manipulators": [
         {
           "from": {
@@ -172,7 +172,7 @@
         },
         {
           "from": {
-            "key_code": "slash",
+            "key_code": "j",
             "modifiers": {
               "mandatory": [
                 "right_shift",
@@ -187,10 +187,7 @@
           },
           "to": [
             {
-              "key_code": "7",
-              "modifiers": [
-                "right_shift"
-              ]
+              "key_code": "escape"
             }
           ],
           "type": "basic"

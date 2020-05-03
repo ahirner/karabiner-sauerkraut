@@ -6,7 +6,7 @@
 |#|\\ |
 |ü|[|
 |+|]|
-|-|/|
+|j|Esc|
 |(nothing)|/|
 
 (This table was written with `karabiner-sauerkraut`)
