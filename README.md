@@ -1,5 +1,5 @@
 # Map Sauerkraut literals to US
-|🇩🇪 + caps-lock | 🇺🇸|
+|caps-lock + 🇩🇪 | 🇺🇸|
 |------------------|------|
 |ö|{|
 |ä|}|
@@ -7,6 +7,7 @@
 |ü|[|
 |+|]|
 |j|Esc|
+|.|>|
 |(nothing)|/|
 
 (This table was written with `karabiner-sauerkraut`)
